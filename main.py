@@ -96,28 +96,125 @@ print("#--1-- voici le nombre de fois qu'apparait le chiffre 3 :",nbre_fois_3,"f
 #--2--Afficher le contenu de l'element numero 5--#
 
 print("#--2-- voici l'element ",tupl[5])
+print('_____________________________\n')
 print('\n')
 #--3-- ordonner la tuple--#
 
 ordonn = sorted(tupl)
 print('#--3-- voici le tuplet ordonné :', ordonn)
+print('______________________________________\n')
 print('\n')
 
 #--4--Ajouter un element a la fin de la ligne --#
 print("#--4-- voici l'element ajouter a la fin du tuplet :")
+print('_________________________________________________\n')
 tupl = tupl + (4,)
 print(tupl)
 print('\n')
 #----5----Ajouter un element a l'index 3 ------------------------ :
 
 print('#--5-- voici la liste apres ajout d_un element a l_index numero 3:')
+print('________________________________________________________________\n')
 tupl = tupl[:3] +(50,)
 print('\n')
 
 #----6----affiche la nouvelle tuplet apres l'ajout ------------------------ :
 print('#--6-- la nouvelle tuple apres l_ajout')
+print('____________________________________\n')
+
 print(tupl)
 print('\n')
 
+# ----------------QUESTION III----------------------
+print(' Question III :')
+print('-------------\n')
+st = {'Samsung','APPLE','Tecno','Itel','HUWAWEi','OPPO','XIAOMI','REalme','OnePlus','Honor'}
+
+# ----1---afficher  un  set :
+
+print("#--1-- voici la liste de mon set :")
+print('________________________________\n')
+for i in st :
+    print(i)
+  
+
+# ----2---ajouter un element :
+
+st.add('Sony')
+print("#--2-- voici la liste de mon set apres avoir ajouter un element:")
+print('______________________________________________________________\n')
+for i in st :
+    print(i)
+   
+
+#----3---supprimer un element :
+
+st.remove("Samsung")
+print("#--3-- voici la liste de mon set apres avoir supprimer un element:")
+print('________________________________________________________________\n')
+for i in st :
+    print(i)
+   
+#---4---supprimer un set :
+
+print('#--4-- voici le set supprimee :')
+print('_____________________________\n')
+while st:
+    st.discard(max(st))
+print(st)
+
+# ----------------QUESTION IV-------------------------------------
+print(' Question IV :')
+print('------------\n')
+Dictionnaire = {'nom':'IGIRANEZA',
+                'prenom':'Richy',
+                'adresse':'Ngagara',
+                'email':'igiranezaulrich19@gmail.com',
+                'telephone':'123456789',
+                'taille':'1.70cm',
+                'profession ':'etudiant',
+                'nom_universite':'ULT',
+                'Faculte':'info',
+                'Departement':'GL'}
+
+# -------1-- affichage d'un dictionnaire:
+print("#--1-- affichage d'un dictionnaire")
+for i in Dictionnaire.items():
+    print(i)
+    
+# -------2-- affichage les cles uniquement d'un dictionnaire :
+print("#--2-- affichage la cle d'un dictionnaire :")
+for i in Dictionnaire.keys():
+    print(i) 
 
 
+# -------3-- affichage les valeurs uniquement  d'un dictionnaire :
+print("#--3-- affichage les valeurs d'un dictionnaire :")
+for i in Dictionnaire.values():
+    print(i)
+
+# -------4-- affichage la cle et la valeur correspondante d'un dictionnaire : 
+
+print("#--4-- affichage la cle et sa valeur correspondante d'un dictionnaire :")
+for cle,valeur in Dictionnaire.items():
+    print("cle est :",cle,"et la valeur correspondante est :",valeur)
+  
+# -------5-----supprimer l'element a la cle numero 2:
+print("#--5-- voici le dictionnaire apres la suppression")
+Dictionnaire.pop("adresse")
+print(Dictionnaire)  
+
+# ------6-------afficher la valeur numero 5 :
+
+numero_5 = Dictionnaire["taille"]
+print("#--6-- le numero 5 de mon dictionnaire a comme valeur :",numero_5,'cm')    
+
+#-------7-------ajouter un nouvel element:
+print("#--7-- voici le dictionnaire apres l'ajout d'un element:")
+Dictionnaire["age"] = "18"
+for i in Dictionnaire:
+    print(i)
+
+#------8-------creer une copie d'un dictionnaire :
+ala = Dictionnaire.copy()
+print('#--8-- voici la copie de mon dict :',Richy) 
