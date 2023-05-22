@@ -60,4 +60,10 @@ print('______________________________________\n')
 liste_vehicules.reverse()
 for i in liste_vehicules:
     print(i)
+#--10-- Vider la liste --#
+print('--10--: la liste est videe  ')
+print('__________________________\n')
+liste_vehicules.clear()
+for j in liste_vehicules:
+    print(j)
     
