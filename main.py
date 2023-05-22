@@ -144,6 +144,14 @@ print("#--3-- voici la liste de mon set apres avoir supprimer un element:")
 print('________________________________________________________________\n')
 for i in st :
     print(i)
+
+#---4---supprimer un set :
+
+print('#--4-- voici le set supprimee :')
+print('_____________________________\n')
+while st:
+    st.discard(max(st))
+print(st)
   
 
     
