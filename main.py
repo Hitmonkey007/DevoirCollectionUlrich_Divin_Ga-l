@@ -36,3 +36,10 @@ print('_______________________________________\n')
 liste_vehicules.insert(2,'3. Jaguar')
 for j in liste_vehicules:
     print(j)    
+#--6-- Supprimer l'élément numéro 3--#
+print('--6--: La suppression du vehicule numero 3 :')
+print('__________________________________________\n')
+del liste_vehicules[3]
+for i in liste_vehicules:
+    print(i)
+        
