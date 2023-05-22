@@ -15,3 +15,12 @@ print('___________________________________________\n')
 liste_vehicules.insert (5,'5. Lamborghini')
 for element in liste_vehicules:
     print(element)
+#--3-- Creer une nouvelle liste en remplissant avec les elements precedent--#
+print("--3--: Nouvelle liste:")
+print('____________________\n')
+liste_new = []
+for elt in liste_vehicules:
+    if 'a' in elt:
+        liste_new.append('1. Tesla')
+for i in liste_new:
+    print(i)
