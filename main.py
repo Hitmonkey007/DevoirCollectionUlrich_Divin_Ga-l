@@ -93,9 +93,15 @@ print('\n')
 
 #--3-- ordonner la tuple--#
 
-ordonn = sorted(tupl)
-print('#--3-- voici le tuplet ordonné :', ordonn)
-print('______________________________________\n')
+order = sorted(tupl)
+print('#--3-- voici la tuple ordonnée :', order)
+print('_____________________________________\n')
+print('\n')
+#--4--Ajouter un element a la fin de la ligne --#
+print("#--4-- voici l'element ajouter a la fin du tuple :")
+print('_________________________________________________\n')
+tupl = tupl + (4,)
+print(tupl)
 print('\n')
 
 
