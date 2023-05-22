@@ -135,6 +135,15 @@ print("#--2-- voici la liste de mon set apres avoir ajouter un element:")
 print('______________________________________________________________\n')
 for i in st :
     print(i)
+
+
+#----3---supprimer un element :
+
+st.remove("Samsung")
+print("#--3-- voici la liste de mon set apres avoir supprimer un element:")
+print('________________________________________________________________\n')
+for i in st :
+    print(i)
   
 
     
