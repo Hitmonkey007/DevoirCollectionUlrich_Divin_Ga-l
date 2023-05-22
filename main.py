@@ -173,5 +173,10 @@ print("#--1-- affichage d'un dictionnaire")
 for i in Dictionnaire.items():
     print(i)
  
+# -------2-- affichage les cles uniquement d'un dictionnaire :
+print("#--2-- affichage la cle d'un dictionnaire :")
+for i in Dictionnaire.keys():
+    print(i) 
+
 
     
