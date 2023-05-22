@@ -207,5 +207,9 @@ Dictionnaire["age"] = "18"
 for i in Dictionnaire:
     print(i)
 
+#------8-------creer une copie d'un dictionnaire :
+ala = Dictionnaire.copy()
+print('#--8-- La copie du dictionnaire :',Dictionnaire) 
+
 
     
