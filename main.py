@@ -111,5 +111,10 @@ print('________________________________________________________________\n')
 tupl = tupl[:3] +(50,)
 print('\n')
 
+#----6----affiche la nouvelle tuple apres l'ajout ----------------------- :
+print('#--6-- la nouvelle tuple apres l_ajout')
+print('____________________________________\n')
+print(tupl)
+print('\n')
 
     
