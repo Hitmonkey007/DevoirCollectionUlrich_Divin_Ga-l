@@ -174,9 +174,15 @@ for i in Dictionnaire.items():
     print(i)
  
 # -------2-- affichage les cles uniquement d'un dictionnaire :
-print("#--2-- affichage la cle d'un dictionnaire :")
+print("#--2-- affichage des clés du dictionnaire :")
 for i in Dictionnaire.keys():
     print(i) 
+
+
+# -------3-- affichage les valeurs uniquement  d'un dictionnaire :
+print("#--3-- affichage les valeurs d'un dictionnaire :")
+for i in Dictionnaire.values():
+    print(i)
 
 
     
