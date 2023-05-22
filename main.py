@@ -70,4 +70,9 @@ for j in liste_vehicules:
 print('--11--: La liste a ete supprimee  ')
 print('________________________________\n')
 del liste_vehicules
+#----Fin de la Question I----#
+
+#--Q.2--#
+print(' Question II  :')
+print('------------\n')
     
