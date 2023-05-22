@@ -24,3 +24,10 @@ for elt in liste_vehicules:
         liste_new.append('1. Tesla')
 for i in liste_new:
     print(i)
+#--4-- Ajouter un element a la fin de la liste--#
+print('--4--: Ajout d_un element a la fin de la liste:')
+print('________________________________________\n')
+liste_vehicules.insert(11,'11. Ferrari') 
+for i in liste_vehicules:
+    print(i)
+    
