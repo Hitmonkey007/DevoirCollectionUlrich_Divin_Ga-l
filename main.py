@@ -48,3 +48,10 @@ print('__________________________________________________\n')
 del liste_vehicules[2]
 for i in liste_vehicules:
     print(i)        
+#--8--  Ordonner la liste --#
+print('--8--: Liste ordonnee:  ')
+print('______________________\n') 
+liste_vehicules.sort()
+for i in liste_vehicules:
+    print(i)
+    
