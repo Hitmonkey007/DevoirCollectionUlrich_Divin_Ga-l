@@ -54,4 +54,10 @@ print('______________________\n')
 liste_vehicules.sort()
 for i in liste_vehicules:
     print(i)
+#--9-- Afficher la liste au sens inverse --#
+print('--9--: Liste affichee en sens inverse:  ')
+print('______________________________________\n') 
+liste_vehicules.reverse()
+for i in liste_vehicules:
+    print(i)
     
