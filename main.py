@@ -120,4 +120,14 @@ print('\n')
 print(' Question III :')
 print('-------------\n')
 
+st = {'Samsung','APPLE','Tecno','Itel','HUWAWEi','OPPO','XIAOMI','REalme','OnePlus','Honor'}
+
+# ----1---afficher  un  set :
+
+print("#--1-- voici la liste de mon set :")
+print('________________________________\n')
+for i in st :
+    print(i)
+  
+
     
