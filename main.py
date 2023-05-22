@@ -9,3 +9,9 @@ print("--1--: La liste des Vehicules:")
 print('____________________________\n')
 for element in liste_vehicules:
     print(element)
+    #--2-- Changer l'element numero 5--#
+print("--2--: Liste apres le changement du numero 5:")
+print('___________________________________________\n')
+liste_vehicules.insert (5,'5. Lamborghini')
+for element in liste_vehicules:
+    print(element)
