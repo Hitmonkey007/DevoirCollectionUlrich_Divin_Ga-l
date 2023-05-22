@@ -61,9 +61,13 @@ liste_vehicules.reverse()
 for i in liste_vehicules:
     print(i)
 #--10-- Vider la liste --#
-print('--10--: la liste est videe  ')
+print('--10--: la liste est videe')
 print('__________________________\n')
 liste_vehicules.clear()
 for j in liste_vehicules:
     print(j)
+#--11-- Supprimer la liste --# 
+print('--11--: La liste a ete supprimee  ')
+print('________________________________\n')
+del liste_vehicules
     
