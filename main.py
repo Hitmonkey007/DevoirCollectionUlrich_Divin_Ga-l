@@ -85,5 +85,11 @@ for i in range(len(tupl)):
     if chiffre_3 == 3:
         nbre_fois_3 +=1
 print("#--1-- voici le nombre de fois qu'apparait le chiffre 3 :",nbre_fois_3,"fois\n")
+#--2--Afficher le contenu de l'element numero 5--#
+
+print("#--2-- voici l'element_5 :",tupl[5])
+print('_____________________________\n')
+print('\n')
+
 
     
