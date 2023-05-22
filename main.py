@@ -30,4 +30,9 @@ print('________________________________________\n')
 liste_vehicules.insert(11,'11. Ferrari') 
 for i in liste_vehicules:
     print(i)
-    
+#--5-- Ajouter un element a l'index numero 2--#
+print('--5--: Ajout_element a l_index numero 2: ')
+print('_______________________________________\n')
+liste_vehicules.insert(2,'3. Jaguar')
+for j in liste_vehicules:
+    print(j)    
