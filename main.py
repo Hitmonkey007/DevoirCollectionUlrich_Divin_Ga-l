@@ -116,5 +116,8 @@ print('#--6-- la nouvelle tuple apres l_ajout')
 print('____________________________________\n')
 print(tupl)
 print('\n')
+# ----------------QUESTION III----------------------
+print(' Question III :')
+print('-------------\n')
 
     
