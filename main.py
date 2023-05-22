@@ -42,4 +42,9 @@ print('__________________________________________\n')
 del liste_vehicules[3]
 for i in liste_vehicules:
     print(i)
-        
+#--7-- Supprimer l'élément à l’index numéro 2--#
+print('--7--: La suppresion du vehicule a l_index numero 2:')
+print('__________________________________________________\n') 
+del liste_vehicules[2]
+for i in liste_vehicules:
+    print(i)        
