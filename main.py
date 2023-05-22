@@ -75,4 +75,15 @@ del liste_vehicules
 #--Q.2--#
 print(' Question II  :')
 print('------------\n')
+#--1--Afficher le nombre de fois le chiffre que 3 apparait--#
+tupl = (0,1,3,3,4,6,3,10,8,9)
+nbre_fois_3 = 0
+check_3 =tupl[0]
+print('les elements du tuple sont :',tupl)
+for i in range(len(tupl)):
+    chiffre_3 =tupl[i]
+    if chiffre_3 == 3:
+        nbre_fois_3 +=1
+print("#--1-- voici le nombre de fois qu'apparait le chiffre 3 :",nbre_fois_3,"fois\n")
+
     
