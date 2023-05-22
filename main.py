@@ -98,10 +98,17 @@ print('#--3-- voici la tuple ordonnée :', order)
 print('_____________________________________\n')
 print('\n')
 #--4--Ajouter un element a la fin de la ligne --#
-print("#--4-- voici l'element ajouter a la fin du tuple :")
-print('_________________________________________________\n')
+print("#--4-- voici l'élement ajouté à la fin du tuple :")
+print('_______________________________________________\n')
 tupl = tupl + (4,)
 print(tupl)
+print('\n')
+
+#----5----Ajouter un element a l'index 3 ------------------------ :
+
+print('#--5-- voici la liste apres ajout d_un element a l_index numero 3:')
+print('________________________________________________________________\n')
+tupl = tupl[:3] +(50,)
 print('\n')
 
 
