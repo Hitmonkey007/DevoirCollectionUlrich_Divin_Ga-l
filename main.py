@@ -91,5 +91,12 @@ print("#--2-- voici l'element_5 :",tupl[5])
 print('_____________________________\n')
 print('\n')
 
+#--3-- ordonner la tuple--#
+
+ordonn = sorted(tupl)
+print('#--3-- voici le tuplet ordonné :', ordonn)
+print('______________________________________\n')
+print('\n')
+
 
     
