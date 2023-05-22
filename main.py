@@ -201,5 +201,11 @@ print(Dictionnaire)
 numero_5 = Dictionnaire["taille"]
 print("#--6-- le numero 5 de mon dictionnaire a comme valeur :",numero_5,'cm')    
 
+#-------7-------ajouter un nouvel element:
+print("#--7-- voici le dictionnaire apres l'ajout d'un element:")
+Dictionnaire["age"] = "18"
+for i in Dictionnaire:
+    print(i)
+
 
     
