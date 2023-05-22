@@ -147,11 +147,15 @@ for i in st :
 
 #---4---supprimer un set :
 
-print('#--4-- voici le set supprimee :')
+print('#--4-- voici le set supprimé :')
 print('_____________________________\n')
 while st:
     st.discard(max(st))
 print(st)
+
+# ----------------QUESTION IV-------------------------------------
+print(' Question IV :')
+print('------------\n')
   
 
     
