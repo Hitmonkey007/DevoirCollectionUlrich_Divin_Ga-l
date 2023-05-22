@@ -128,6 +128,13 @@ print("#--1-- voici la liste de mon set :")
 print('________________________________\n')
 for i in st :
     print(i)
+# ----2---ajouter un element :
+
+st.add('Sony')
+print("#--2-- voici la liste de mon set apres avoir ajouter un element:")
+print('______________________________________________________________\n')
+for i in st :
+    print(i)
   
 
     
